@@ -28,11 +28,11 @@ cask "stablebar" do
             }
 
   zap trash: [
-    "~/.config/stablebar",
     "~/Library/Caches/org.stablebar.app",
     "~/Library/Caches/org.stablebar.app.sparkle",
     "~/Library/Caches/StableBar",
     "~/Library/HTTPStorages/org.stablebar.app",
+    "~/Library/HTTPStorages/org.stablebar.app.binarycookies",
     "~/Library/Preferences/org.stablebar.app.plist",
   ]
 end
